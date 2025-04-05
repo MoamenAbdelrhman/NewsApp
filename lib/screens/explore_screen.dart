@@ -126,7 +126,7 @@ class ExploreScreen extends StatelessWidget {
                                       article.imageUrl!.isNotEmpty
                                       ? Image.network(
                                     article.imageUrl!,
-                                    height: 250, // ارتفاع أكبر
+                                    height: 250,
                                     width: double.infinity,
                                     fit: BoxFit.cover,
                                     errorBuilder:
