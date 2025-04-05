@@ -71,15 +71,21 @@ lib/
     ```bash
     flutter run
 
-Usage
+
+**Usage**
+
 Login: Enter dummy credentials or click "Login" to proceed to the Explore screen (authentication not implemented).
 Explore: Browse top headlines by category. Tap an article to view details.
 Search: Use the search icon in the app bar to filter articles.
 
-Future Improvements
+
+**Future Improvements**
+
 Implement full login functionality with authentication.
 Support for multiple languages and regions.
 Offline caching of articles.
 
-Contributing
+
+**Contributing**
+
 Feel free to submit issues or pull requests. Contributions are welcome!
