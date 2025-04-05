@@ -1,16 +1,21 @@
-# first_app
+# News & Weather App
 
-A new Flutter project.
+A Flutter-based mobile application that fetches and displays news articles from various categories using the [News API](https://newsapi.org/). The app implements the **MVVM (Model-View-ViewModel)** architecture with state management handled by **Cubit** from the `flutter_bloc` package.
 
-## Getting Started
+## Features
+- **Login Screen**: A simple UI for user login with social media options (not fully implemented).
+- **Explore Screen**: Displays top headlines with category filtering (e.g., General, Business, Technology).
+  - The first article is showcased in a larger, prominent card.
+  - Other articles are displayed in a compact card format.
+- **Article Details**: View detailed information about a selected article.
+- **Search Functionality**: Search through fetched articles by title, source, or description.
+- **Responsive UI**: Built with Flutter's Material Design for a smooth user experience.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Flutter**: Cross-platform framework for building the app.
+- **Dart**: Programming language used with Flutter.
+- **flutter_bloc**: State management library implementing Cubit for MVVM.
+- **Dio**: HTTP client for making API requests to News API.
+- **News API**: External API for fetching news articles (requires an API key).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
